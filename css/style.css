@@ -1,0 +1,419 @@
+/*for preloader*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #e3f4fd!important;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disappear {
+    animation: vanich 1s forwards;
+}
+
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+header ul li a {
+    font-weight: 500;
+    color: cadetblue !important;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+header ul li :hover {
+    color: cyan !important;
+}
+nav img{
+    width: 40%;
+}
+
+#home {
+    background-color: #ea7a3b !important;
+}
+
+#home h2 {
+    margin-top: 12%;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+
+#home .img-div {
+    margin-left: 28% !important;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #ea7a3b;
+    -webkit-box-shadow: 20px 20px 60px #c76832, -20px -20px 60px #ff8c44;
+    box-shadow: 20px 20px 60px #c76832, -20px -20px 60px #ff8c44;
+}
+
+#home .img-div img {
+    width: 77%;
+    margin: 11% 0 0 10%;
+}
+
+#hapatitis {
+    background-color: #aebf3f;
+}
+
+#hapatitis h2 {
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+#hapatitis .img-div {
+    margin-right: 25% !important;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #aebf3f;
+    -webkit-box-shadow: 20px 20px 60px #94a236, -20px -20px 60px #c8dc48;
+    box-shadow: 20px 20px 60px #94a236, -20px -20px 60px #c8dc48;
+}
+
+#hapatitis .img-div img {
+    width: 70%;
+    margin: 14% 0 0 15%;
+}
+
+#hapatitis .para_div {
+    padding-right: 6%;
+    margin-top: 2%;
+}
+
+#hapatitis .para_div button {
+    margin-top: 3%;
+    padding: 1.5% !important;
+    background: #b6c841;
+    -webkit-box-shadow: 20px 20px 60px #9baa37, -20px -20px 60px #d1e64b;
+    box-shadow: 20px 20px 60px #9baa37, -20px -20px 60px #d1e64b;
+    -webkit-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+}
+
+#hapatitis .para_div button:hover {
+    background: linear-gradient(145deg, #c3d646, #a4b43b);
+    -webkit-box-shadow: 22px 22px 44px #9baa37, -22px -22px 44px #d1e64b;
+    box-shadow: 22px 22px 44px #9baa37, -22px -22px 44px #d1e64b;
+}
+
+#liver {
+    background-color: #022454 !important;
+}
+
+#liver h2 {
+    margin-bottom: 4%;
+}
+
+#liver .para_div {
+    margin-top: 2%;
+    /* padding: 1% 2% 0 9% !important; */
+}
+
+#liver .para_div button {
+    margin-top: 3%;
+    padding: 10px;
+    background: linear-gradient(145deg, #06316c, #05295b);
+    -webkit-box-shadow: 5px 5px 36px #041d3f, -5px -5px 36px #083f8b;
+    box-shadow: 5px 5px 36px #041d3f, -5px -5px 36px #083f8b;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+#liver .para_div button:hover {
+    background: #062e65;
+    -webkit-box-shadow: inset 24px 24px 48px #052756, inset -24px -24px 48px #073574;
+    box-shadow: inset 24px 24px 48px #052756, inset -24px -24px 48px #073574;
+}
+
+#liver .img-div {
+    margin-left: 25% !important;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #022454;
+    -webkit-box-shadow: 20px 20px 60px #021f47, -20px -20px 60px #022961;
+    box-shadow: 20px 20px 60px #021f47, -20px -20px 60px #022961;
+}
+
+#liver .img-div img {
+    width: 75%;
+    margin: 22% 0 0 16%;
+}
+
+#heart {
+    background-color: #f5a9da;
+}
+
+#heart h2 {
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+#heart .img-div {
+    margin-right: 25% !important;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #f5a9da;
+    -webkit-box-shadow: 20px 20px 60px #d090b9, -20px -20px 60px #ffc2fb;
+    box-shadow: 20px 20px 60px #d090b9, -20px -20px 60px #ffc2fb;
+}
+
+#heart .img-div img {
+    width: 70%;
+    margin: 14% 0 0 15%;
+}
+
+#heart .para_div {
+    padding-right: 6%;
+    margin-top: 2%;
+}
+
+#heart .para_div button {
+    margin-top: 3%;
+    padding: 1.5% !important;
+    background: linear-gradient(145deg, #ffb5e9, #dd98c4);
+    -webkit-box-shadow: 20px 20px 42px #eba2d1, -20px -20px 42px #ffb0e3;
+    box-shadow: 20px 20px 42px #eba2d1, -20px -20px 42px #ffb0e3;
+    -webkit-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+}
+
+#heart .para_div button:hover {
+    background: #f5a9da;
+    -webkit-box-shadow: inset 20px 20px 42px #eba2d1, inset -20px -20px 42px #ffb0e3;
+    box-shadow: inset 20px 20px 42px #eba2d1, inset -20px -20px 42px #ffb0e3;
+}
+
+#diabetes {
+    background-color: #a51111 !important;
+}
+
+#diabetes h2 {
+    margin-bottom: 4%;
+}
+
+#diabetes .para_div {
+    margin-top: 2%;
+    /* padding: 1% 2% 0 9% !important; */
+}
+
+#diabetes .para_div button {
+    margin-top: 3%;
+    padding: 10px;
+    bbackground: #a51111;
+    -webkit-box-shadow: 20px 20px 60px #8c0e0e, -20px -20px 60px #be1414;
+    box-shadow: 20px 20px 60px #8c0e0e, -20px -20px 60px #be1414;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+#diabetes .para_div button:hover {
+    background: #a51111;
+    -webkit-box-shadow: inset 20px 20px 60px #8c0e0e, inset -20px -20px 60px #be1414;
+    box-shadow: inset 20px 20px 60px #8c0e0e, inset -20px -20px 60px #be1414;
+}
+
+#diabetes .img-div {
+    margin-left: 25% !important;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #a51111;
+    -webkit-box-shadow: 20px 20px 60px #8c0e0e, -20px -20px 60px #be1414;
+    box-shadow: 20px 20px 60px #8c0e0e, -20px -20px 60px #be1414;
+}
+
+#diabetes .img-div img {
+    width: 76%;
+    margin: 22% 0 0 11%;
+}
+
+#kidney {
+    background-color: #588d89;
+}
+
+#kidney h2 {
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+#kidney .img-div {
+    margin-right: 25% !important;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #588d89;
+    -webkit-box-shadow: 20px 20px 60px #4b7874, -20px -20px 60px #65a29e;
+    box-shadow: 20px 20px 60px #4b7874, -20px -20px 60px #65a29e;
+}
+
+#kidney .img-div img {
+    width: 70%;
+    margin: 13% 0 0 12%;
+}
+
+#kidney .para_div {
+    padding-right: 6%;
+    margin-top: 2%;
+}
+
+#kidney .para_div button {
+    margin-top: 3%;
+    padding: 1.5% !important;
+    background: linear-gradient(145deg, #5e9793, #4f7f7b);
+    -webkit-box-shadow: 20px 20px 60px #4b7874, -20px -20px 60px #65a29e;
+    box-shadow: 20px 20px 60px #4b7874, -20px -20px 60px #65a29e;
+    -webkit-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+}
+
+#kidney .para_div button:hover {
+    background: #588d89;
+    -webkit-box-shadow: inset 20px 20px 60px #4b7874, inset -20px -20px 60px #65a29e;
+    box-shadow: inset 20px 20px 60px #4b7874, inset -20px -20px 60px #65a29e;
+}
+
+#about {
+    background-color: #2c444e !important;
+}
+
+#about h2 {
+    margin-bottom: 4%;
+}
+
+#about .para_div {
+    margin-top: 2%;
+    /* padding: 1% 2% 0 9% !important; */
+}
+
+#about .para_div button {
+    margin-top: 3%;
+    padding: 10px;
+    background: linear-gradient(145deg, #2f4953, #283d46);
+    -webkit-box-shadow: 20px 20px 60px #253a42, -20px -20px 60px #334e5a;
+    box-shadow: 20px 20px 60px #253a42, -20px -20px 60px #334e5a;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+#about .para_div button:hover {
+    background: #2c444e;
+    -webkit-box-shadow: inset 20px 20px 60px #253a42, inset -20px -20px 60px #334e5a;
+    box-shadow: inset 20px 20px 60px #253a42, inset -20px -20px 60px #334e5a;
+}
+
+#about .img-div {
+    margin-left: 25% !important;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #2c444e;
+    -webkit-box-shadow: 20px 20px 60px #253a42, -20px -20px 60px #334e5a;
+    box-shadow: 20px 20px 60px #253a42, -20px -20px 60px #334e5a;
+}
+
+#about .img-div img {
+    width: 75%;
+    margin: 13% 0 0 13%;
+}
+
+#contact {
+    background-color: #2c2c2c;
+}
+
+#contact h2 {
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+#contact .img-div {
+    margin-right: 25% !important;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #2c2c2c;
+    -webkit-box-shadow: 20px 20px 60px #252525, -20px -20px 60px #333333;
+    box-shadow: 20px 20px 60px #252525, -20px -20px 60px #333333;
+}
+
+#contact .img-div img {
+    width: 78%;
+    margin: 14% 0 0 12%;
+}
+
+#contact p {
+    /* position: relative; */
+    font-size: 23px;
+    padding-left: 2%;
+}
+
+#contact .icon-pre {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    /* background-color: red; */
+    /* background: #2c2c2c; */
+    -webkit-box-shadow: inset 5px 5px 10px #474747, inset -5px -5px 10px #616161;
+    background: #545454;
+    box-shadow: inset 5px 5px 10px #474747, inset -5px -5px 10px #616161;
+}
+
+#contact i {
+    position: absolute;
+    top: 9px;
+    left: 11px;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}
+
+.ml-14 {
+    margin-left: 14rem;
+}
+
+
+/* #contact .para_div button:hover {
+    background: linear-gradient(145deg, #282828, #2f2f2f);
+    -webkit-box-shadow: 20px 20px 60px #252525, -20px -20px 60px #333333;
+    box-shadow: 20px 20px 60px #252525, -20px -20px 60px #333333;
+} */
+
+#pagepiling .section {
+    color: #fff;
+}
+
+
+/*# sourceMappingURL=style.css.map */

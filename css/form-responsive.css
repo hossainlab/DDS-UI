@@ -1,0 +1,73 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .img-div {
+        /* margin-top: 7%; */
+        margin-left: 24%!important;
+        height: 160px!important;
+        width: 160px!important;
+        position: relative!important;
+        /* left: 0; */
+    }
+    .custom-margin {
+        margin-top: .5rem!important;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .img-div {
+        /* margin-top: 7%; */
+        margin-left: 31%!important;
+        height: 220px!important;
+        width: 220px!important;
+        position: relative!important;
+        /* left: 0; */
+    }
+    .custom-margin {
+        margin-top: .5rem!important;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .img-div {
+        margin-top: 4%;
+        margin-left: 31%!important;
+        height: 280px!important;
+        width: 280px!important;
+        position: relative!important;
+        /* left: 0; */
+    }
+    .custom-margin {
+        margin-top: .5rem!important;
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .img-div {
+        margin-top: 20%!important;
+        margin-left: 5%!important;
+        height: 280px!important;
+        width: 280px!important;
+        /* position: relative!important; */
+        /* left: 0; */
+    }
+    .custom-margin {
+        margin-top: .5rem!important;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    ...
+}

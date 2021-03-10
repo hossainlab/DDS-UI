@@ -1,0 +1,42 @@
+.diabetes-form .img-div{
+	margin-top: 7%;
+    margin-left: 6%!important;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background: #a51111;
+    box-shadow: 20px 20px 60px #8c0e0e, -20px -20px 60px #be1414;
+    position: fixed;
+    left: 0;
+}
+.diabetes-form .img-div img{
+	width: 80%;
+    margin: 19% 0 0 9%;
+}
+
+.diabetes-form input{
+/*border-radius: 50px;*/
+background: linear-gradient(145deg, #710e0e, #871111);
+box-shadow:  20px 20px 60px #6b0e0e,
+             -20px -20px 60px #911212;
+-webkit-box-shadow:20px 20px 60px #6b0e0e,
+             -20px -20px 60px #911212;
+color: #fff!important;
+}
+.diabetes-form input:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+.diabetes-form button{
+background:#D31616;
+color: white;
+font-weight: 600;
+transition: 0.3s ease-out;
+}
+.diabetes-form button:hover{
+	background: #d8d4d4;
+box-shadow:  0px 0px 0px #d4d0d0, 0px 2px 11px #dcd8d8
+color:#D31616!important;
+-webkit-box-shadow: 0px 0px 0px #d4d0d0, 0px 2px 11px #dcd8d8
+}

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css for form/kidney-from.css">
+    <link rel="stylesheet" href="css/form-responsive.css">
+    <title>Kidney Detect Diabetes</title>
+
+</head>
+
+<body style="background-color:  #588d89!important;">
+    <section class="diabetes-form py-4">
+        <div class="container py-4">
+            <div class="justify-content-center h3 text-center text-white">kidney Disease Detection</div>
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="img-div"><img src="img/kidney.png" alt="dds"></div>
+                </div>
+                <div class="col-md-12 col-lg-8">
+                    <form class="row my-4 custom-margin">
+                        <div class="col-md-10 mx-auto">
+                            <label for="age" class="form-label text-white">Write the Age of the Patient</label>
+                            <input type="number" class="form-control" id="age" aria-describedby="Age">
+                        </div>
+                        <div class="col-md-10 mx-auto">
+                            <label for="gender" class="form-label text-white">Write the Paitent Gender? Write the number(female=2/male=1)</label>
+                            <input type="number" class="form-control" id="gender" aria-describedby="gender">
+
+                        </div>
+
+                        <div class="col-md-10 mx-auto">
+                            <label for="bilirubin" class="form-label text-white">Write the Patient total Bilirubin</label>
+                            <input type="number" class="form-control" id="bilirubin" aria-describedby="bilirubin">
+
+                        </div>
+                        <div class="col-md-10 mx-auto">
+                            <label for="direct_bilirubin" class="form-label text-white">Write the Patient Direct Bilirubin</label>
+                            <input type="number" class="form-control" id="direct_bilirubin" aria-describedby="direct_bilirubin">
+
+                        </div>
+                        <div class="col-md-10 mx-auto">
+                            <label for="alkalin_phosphotase" class="form-label text-white">Write the Patient Alkalin Phosphotase</label>
+                            <input type="number" class="form-control" id="alkalin_phosphotase" aria-describedby="alkalin_phosphotase ">
+
+                        </div>
+                        <div class="col-md-10 mx-auto ">
+                            <!-- AAT = Alamine Aminotransferase -->
+                            <label for="AAT " class="form-label  text-white">Write the Patient Alamine Aminotransferase</label>
+                            <input type="number " class="form-control " id="AAT " aria-describedby="AAT ">
+                        </div>
+
+                        <div class="col-md-10 mx-auto ">
+                            <!-- AS = aspertate -->
+                            <label for="AS_Aminotransferase " class="form-label  text-white">Write the Patient Aspartate Aminotransferase</label>
+                            <input type="number " class="form-control " id="AS_Aminotransferase " aria-describedby="AS_Aminotransferase ">
+                        </div>
+
+                        <div class="col-md-10 mx-auto ">
+                            <label for="totalProteins " class="form-label  text-white">Write the Patient Total Proteins</label>
+                            <input type="number " class="form-control " id="totalProteins " aria-describedby="totalProteins ">
+                        </div>
+                        <div class="col-md-10 mx-auto ">
+                            <label for="albumin " class="form-label  text-white">Write the Patient Albumin</label>
+                            <input type="number " class="form-control " id="albumin " aria-describedby="albumin ">
+                        </div>
+                        <div class="col-md-10 mx-auto ">
+                            <label for="albumin&globulin" class="form-label text-white">Write the Patient Albumin and Globulin Ratio</label>
+                            <input type="number" class="form-control" id="albumin&globulin" aria-describedby="albumin&globulin ">
+                        </div>
+
+                        <button type="submit" class="col-md-6 col-5 mx-auto btn mt-3">Submit</button>
+
+
+                        <!-- ======================================result protion====================================-->
+                        <div class="mt-5">
+                            <div class="col-md-10 mx-auto">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <label for="checkResult" class="form-label text-white">Patient has liver diseases</label>
+                                        <input type="boolean" class="form-control" id="checkResult" aria-describedby="checkResult">
+                                    </div>
+                                    <button type="submit" class="col-md-4 col-5  mx-auto btn mt-3">Check for result</button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-10 mx-auto">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <label for="accuracyOfSystem" class="form-label text-white">Accuracy of System</label>
+                                        <input type="number" class="form-control" id="accuracyOfSystem" aria-describedby="accuracyOfSystem">
+                                    </div>
+                                    <button type="submit" class="col-md-4 col-5  mx-auto btn mt-3">Check for Accuracy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ======================================result protion====================================-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js " integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js " integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
